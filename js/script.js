@@ -1,6 +1,6 @@
 alert("Bem vindo ao meu portifólo!");
 function troca_titulo() {
-    document.getElementById("destaque").innerHTML = prompt ("Digite o nome:");
+    document.getElementById("destaque").textContent = prompt ("Digite o nome:");
 }
 
 function troca_cor() {
